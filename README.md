@@ -173,19 +173,15 @@ Observations consistent with wireless-ML literature:
   16-QAM is more expensive than the reverse.
 
 ## 7. References
-1. A. Swami, B. M. Sadler, "Hierarchical digital modulation classification
-   using cumulants," *IEEE Trans. Communications*, 2000.
+1. A. Swami, B. M. Sadler, "Hierarchical digital modulation classification using cumulants," *IEEE Trans. Communications*, 2000.
 2. L. Breiman, "Random Forests," *Machine Learning*, 2001.
-3. J. H. Friedman, "Greedy function approximation: a gradient boosting
-   machine," *Annals of Statistics*, 2001.
-4. T. O'Shea, J. Hoydis, "An Introduction to Deep Learning for the Physical
-   Layer," *IEEE Trans. Cognitive Communications and Networking*, 2017.
+3. J. H. Friedman, "Greedy function approximation: a gradient boosting machine," *Annals of Statistics*, 2001.
+4. T. O'Shea, J. Hoydis, "An Introduction to Deep Learning for the Physical Layer," *IEEE Trans. Cognitive Communications and Networking*, 2017.
 
 ## Author
 
 **Ibrahim Mustapha, PhD**
-
-Department of Electrical & Electronic Engineering
+Department of Electrical & Electronic Engineering,
 University of Maiduguri
 Communications Engineering / Wireless Communications
 Python & Machine Learning
@@ -193,13 +189,11 @@ Python & Machine Learning
 ---
 
 ## License
-
 This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Disclaimer
-
 This project is primarily an educational and research-oriented implementation. Predictions produced by the initial model should not be treated as a substitute for detailed radio-frequency planning, field measurements, or validated commercial propagation models.
 6. F. Pedregosa et al., "Scikit-learn: Machine Learning in Python,"
    *JMLR*, 2011.
