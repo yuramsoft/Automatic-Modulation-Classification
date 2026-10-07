@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+       16QAM     0.8154    0.9163    0.8629       800
+        BPSK     0.9950    0.9962    0.9956       800
+        QPSK     0.9071    0.7937    0.8467       800
+
+    accuracy                         0.9021      2400
+   macro avg     0.9058    0.9021    0.9017      2400
+weighted avg     0.9058    0.9021    0.9017      2400

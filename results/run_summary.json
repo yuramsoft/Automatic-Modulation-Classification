@@ -1,0 +1,68 @@
+{
+  "dataset": "data/dataset.csv",
+  "n_samples": 9600,
+  "features": [
+    "c20_abs",
+    "c40",
+    "c41",
+    "c42",
+    "energy",
+    "spectral_entropy",
+    "snr"
+  ],
+  "classes": [
+    "16QAM",
+    "BPSK",
+    "QPSK"
+  ],
+  "metrics": [
+    {
+      "model": "LogisticRegression",
+      "accuracy": 0.9112,
+      "precision_macro": 0.9115,
+      "recall_macro": 0.9112,
+      "f1_macro": 0.9112,
+      "roc_auc_ovr_macro": 0.9843
+    },
+    {
+      "model": "SVM_RBF",
+      "accuracy": 0.9021,
+      "precision_macro": 0.9058,
+      "recall_macro": 0.9021,
+      "f1_macro": 0.9017,
+      "roc_auc_ovr_macro": 0.9846
+    },
+    {
+      "model": "KNN",
+      "accuracy": 0.9,
+      "precision_macro": 0.9,
+      "recall_macro": 0.9,
+      "f1_macro": 0.9,
+      "roc_auc_ovr_macro": 0.9828
+    },
+    {
+      "model": "MLP",
+      "accuracy": 0.8992,
+      "precision_macro": 0.9084,
+      "recall_macro": 0.8992,
+      "f1_macro": 0.8982,
+      "roc_auc_ovr_macro": 0.9862
+    },
+    {
+      "model": "GradientBoosting",
+      "accuracy": 0.895,
+      "precision_macro": 0.8949,
+      "recall_macro": 0.895,
+      "f1_macro": 0.8948,
+      "roc_auc_ovr_macro": 0.9841
+    },
+    {
+      "model": "RandomForest",
+      "accuracy": 0.8875,
+      "precision_macro": 0.8881,
+      "recall_macro": 0.8875,
+      "f1_macro": 0.8873,
+      "roc_auc_ovr_macro": 0.9823
+    }
+  ]
+}
