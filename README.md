@@ -1,4 +1,6 @@
 # Automatic-Modulation-Classification with Classical Machine Learnin
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Models](https://img.shields.io/badge/models-linear%20regression%20%7C%20random%20forest-green)
 Automatic Modulation Classification (AMC) is a classic wireless-communications problem solved as a multi-class ML task.
 
 The project bridges **wireless communications** and **machine learning**: it generates a **synthetic wireless dataset** from a digital communication
@@ -61,6 +63,7 @@ them linearly *almost* separable — an ideal playground for comparing a linear 
 ```
 F_m(x) = F_{m−1}(x) + ν · h_m(x),   h_m ≈ argmin Σ L(y_i, F_{m−1}(x_i) + h(x_i))
 ```
+
 with learning rate `ν`. Boosting reduces *bias* and typically edges out
 random forests on tabular data.
 
@@ -178,5 +181,26 @@ Observations consistent with wireless-ML literature:
    machine," *Annals of Statistics*, 2001.
 4. T. O'Shea, J. Hoydis, "An Introduction to Deep Learning for the Physical
    Layer," *IEEE Trans. Cognitive Communications and Networking*, 2017.
-5. F. Pedregosa et al., "Scikit-learn: Machine Learning in Python,"
+
+## Author
+
+**Ibrahim Mustapha, PhD**
+
+Department of Electrical & Electronic Engineering
+University of Maiduguri
+Communications Engineering / Wireless Communications
+Python & Machine Learning
+
+---
+
+## License
+
+This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Disclaimer
+
+This project is primarily an educational and research-oriented implementation. Predictions produced by the initial model should not be treated as a substitute for detailed radio-frequency planning, field measurements, or validated commercial propagation models.
+6. F. Pedregosa et al., "Scikit-learn: Machine Learning in Python,"
    *JMLR*, 2011.
