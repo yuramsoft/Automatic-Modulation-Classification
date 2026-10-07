@@ -1,6 +1,5 @@
 # Automatic-Modulation-Classification with Classical Machine Learnin
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
-![Models](https://img.shields.io/badge/models-linear%20regression%20%7C%20random%20forest-green)
+
 Automatic Modulation Classification (AMC) is a classic wireless-communications problem solved as a multi-class ML task.
 
 The project bridges **wireless communications** and **machine learning**: it generates a **synthetic wireless dataset** from a digital communication
