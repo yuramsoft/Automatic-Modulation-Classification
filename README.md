@@ -1,4 +1,4 @@
-# Automatic-Modulation-Classification with Classical Machine Learnin
+# Automatic-Modulation-Classification with Classical Machine Learning
 
 Automatic Modulation Classification (AMC) is a classic wireless-communications problem solved as a multi-class Machine Learning task.
 
